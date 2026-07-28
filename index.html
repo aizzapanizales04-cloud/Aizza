@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Haven</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        🌸 Bloom Haven
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#garden">Flower Form</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+    <div class="hero-text">
+
+        <h1>Welcome to<br>Bloom Haven</h1>
+
+        <p>
+            Discover beautiful flowers and save your favorite blooms
+            in your personal flower journal.
+        </p>
+
+        <a href="#garden" class="btn">
+            Start Planting 🌼
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <h2>About Bloom Haven</h2>
+
+    <p>
+        Bloom Haven is a simple flower-themed website where you can
+        register different flowers and save them using Firebase.
+        It is designed for flower lovers who want a digital flower journal.
+    </p>
+
+</section>
+
+<!-- FORM -->
+
+<section class="garden" id="garden">
+
+    <div class="form-container">
+
+        <h2>🌷 Flower Registration</h2>
+
+        <label>Choose Flower</label>
+
+        <select id="flowerName">
+
+            <option value="">Select Flower</option>
+
+            <option>🌹 Rose</option>
+
+            <option>🌻 Sunflower</option>
+
+            <option>🌷 Tulip</option>
+
+            <option>🌸 Cherry Blossom</option>
+
+            <option>🌼 Daisy</option>
+
+            <option>🌺 Hibiscus</option>
+
+            <option>💜 Lavender</option>
+
+            <option>🪷 Lotus</option>
+
+        </select>
+
+        <label>Flower Color</label>
+
+        <input
+        type="text"
+        id="flowerColor"
+        placeholder="Flower Color">
+
+        <label>Season</label>
+
+        <select id="season">
+
+            <option value="">Select Season</option>
+
+            <option>Spring</option>
+
+            <option>Summer</option>
+
+            <option>Rainy</option>
+
+            <option>Winter</option>
+
+        </select>
+
+        <label>Gardener Name</label>
+
+        <input
+        type="text"
+        id="gardener"
+        placeholder="Your Name">
+
+        <label>Notes</label>
+
+        <textarea
+        id="notes"
+        rows="4"
+        placeholder="Write something about the flower..."></textarea>
+
+        <button id="saveBtn">
+            🌸 Save Flower
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © Aizza Panizales Bloom Haven
+    </p>
+
+</footer>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
